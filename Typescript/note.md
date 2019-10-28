@@ -68,3 +68,12 @@
            +) If you want to use constructor in child class, you need to call super() inside that child constructor<br>
 3. Why do we care<br>
    Reuseable code
+
+## Section 9. Design Pattern with TS
+
+Note:<br>
+
+1. "|" can only show common properties between 2 types
+2. A single value/object can have multiple types
+3. implements inferface for class help TS to show us error better
+4. Interface is linked **tightly** with classes
