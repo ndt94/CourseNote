@@ -71,9 +71,30 @@
 
 ## Section 9. Design Pattern with TS
 
-Note:<br>
+Note:
 
 1. "|" can only show common properties between 2 types
 2. A single value/object can have multiple types
 3. implements inferface for class help TS to show us error better
 4. Interface is linked **tightly** with classes
+
+## Section 10. More Design Patterns
+
+Note:
+
+1. `tsc --init` to create ts.config file which tell the compiler what to do
+2. `npm init -y` to create package.json file where you can control dependencies and scripting command
+3. ```javascript
+   class Sorter {
+       constructor(public collection: number[]) {}
+   }
+   ```
+    is equal to
+    ```javascript
+    class Sorter {
+    	collection: number[];
+    	constructor(collection: number[]) {
+    		this.collection = collection;
+    	}
+    }
+    ```
