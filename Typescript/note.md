@@ -15,7 +15,7 @@
 
 #### Way to use Type Annotation and Type Inference with:
 
-1. Variables<br>
+1. `Variables`<br>
    Ex:<br> a: number = 5<br>
    **Mostly use Type Inferrence except 3 situation**<br>
    **When To Use**<br>
@@ -24,9 +24,9 @@
     2. When we declare a variable on one line and initialize it later
     3. When we want a variable to have a type that can't be inferred
 
-2. Functions
+2. `Functions`
     1. Always use type annotations for both argument and the value returned from function
-3. Objects<br>
+3. `Objects`<br>
    Ex:<br> const { age }: { age: number } = profile;
 
 ## Section 5. Arrays in Typescript
@@ -40,33 +40,34 @@
 
 ## Section 7. The All-important Interface
 
-1. Definition<br>
+1. `Definition`<br>
    Interfaces create a new type, describing the property names and value types of an object
-2. Why do we care<br>
+2. `Why do we care`<br>
    Create reusable code with interfaces
-3. Implementation
+3. `Implementation`
     1. Create functions that accept arguments that are typed with interfaces
     2. Objects/classes can decide to 'implement' a given interface to work with a function
 
 ## Section 8. Classes
 
-1. Definition<br>
+1. `Definition`<br>
    Blueprint to create an object with some fields(value) and methods(functions) to represent a thing
-2. Different between TS Classes and ES2015 Classes
-    1. Modifier
-        1. public<br>
+2. `Different between TS Classes and ES2015 Classes`
+    1. `Modifier`
+        1. `public`<br>
            This method can be called anywhere, anytime
-        2. private<br>
+        2. `private`<br>
            This method can only be called by other methods in this classes
-        3. protected<br>
+        3. `protected`<br>
            This method can be called by other methods in this classes, or by other methods in child classes<br><br>
-           **NOTE: 1.Modifier can use with both methods and fields**<br>
-           **2.Cannot overide modifier from child classes to parent class**
-    2. Fields
-        1. constructor<br>
+           **`NOTE:`<br>**
+           **`1.Modifier can use with both methods and fields`**<br>
+           **`2.Cannot overide modifier from child classes to parent class`**
+    2. `Fields`
+        1. `constructor`<br>
            +) Method runs when initialize a new classes<br>
            +) If you want to use constructor in child class, you need to call super() inside that child constructor<br>
-3. Why do we care<br>
+3. `Why do we care`<br>
    Reuseable code
 
 ## Section 9. Design Pattern with TS
@@ -98,3 +99,32 @@ Note:
     	}
     }
     ```
+4. `Type Guards` use to restore access to properties of a type when using `|` operator
+
+    1. `typeof` for primitive value (number, string, boolean, symbol)
+    2. `instanceof` for other type value
+    3. `get` modifier is used to treat length() function as a property of some class
+
+    ```javascript
+        get length(): number {
+       	return this.data.length;
+        }
+    ```
+
+5. `Abstract classes`
+
+    1. Can't be used to create an object directly
+    2. Only used as a parent class
+    3. Can contain real implementation for some methods
+    4. The implemented methods can refer to other methods that don't actually exist yet ( We still have to provide names and types for the un-implemented methods)
+    5. Can make child classes promise to implement some other method
+
+6. Different between `Interface` and `Abstract classes`
+    1. `Interface`
+        1. Sets up a contract between different classes
+        2. Use when we have very different objects that we want to work together
+        3. Promotes `loose coupling`
+    2. `Abstract classes`
+        1. Sets up a contract between different classes
+        2. Use when we are trying to build up a definition of an object
+        3. Strongly `couples` classes together

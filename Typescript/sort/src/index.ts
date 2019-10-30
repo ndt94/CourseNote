@@ -1,20 +1,36 @@
-class Sorter {
-	constructor(public collection: number[]) {}
-	sort(): void {
-		const { length } = this.collection;
+import { Sorter } from "./Sorter";
+import { NumbersColletion } from "./NumbersColection";
+import { CharactersCollection } from "./CharactersCollection";
+import { LinkedList } from "./LinkedList";
 
-		for (let i = 0; i < length; i++) {
-			for (let j = 0; j < length - i - 1; j++) {
-				if (this.collection[j] > this.collection[j + 1]) {
-					const leftHand = this.collection[j];
-					this.collection[j] = this.collection[j + 1];
-					this.collection[j + 1] = leftHand;
-				}
-			}
-		}
-	}
-}
+// Init
+const numbersCollection = new NumbersColletion([10, -1, 5, 2, 8]);
+const charactersCollection = new CharactersCollection("XaayB");
 
-const sorter = new Sorter([10, -1, 5, 2, 8]);
-sorter.sort();
-console.log(sorter.collection);
+const linkedList = new LinkedList();
+linkedList.add(500);
+linkedList.add(-10);
+linkedList.add(-3);
+linkedList.add(4);
+linkedList.sort();
+// Bubble sort an array (abstract way)
+numbersCollection.sort();
+
+// Buble sort a string (abstract way)
+charactersCollection.sort();
+// Bubble sort an array (non abstract way)
+// const sorter_number = new Sorter(numbersCollection);
+// sorter_number.sort();
+
+// Buble sort a string (non abstract way)
+// const sorter_string = new Sorter(charactersCollection);
+// sorter_string.sort();
+
+// Buble sort a linked list (non abstract way)
+// const sorter_linkled_list = new Sorter(linkedList);
+// sorter_linkled_list.sort();
+
+// Print out result
+console.log(numbersCollection.data);
+console.log(charactersCollection.data);
+linkedList.print();
