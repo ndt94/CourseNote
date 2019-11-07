@@ -29,3 +29,23 @@ Note:<br>
    Kill a container instaly
 9. docker exec -it `<container_id>` `<command>`<br>
    Run another command inside a container
+
+# `Section 3. Building Custom Images Through Docker Server`
+
+Note:
+
+1. `Flow when creating a Dockerfile`
+    1. Specify a base image
+    2. Run some commands to install additional programs
+    3. Specify a command to run on container startup
+2. Dockerfile tell Docker server what to do
+   `<command>` `<argument>`<br>
+   Ex: FROM alpine
+
+3. After using `docker build .` the end result is we got an image contains our desired program and a command to run when we run that image as a container
+
+4. The order of command in Docker file matter! Put changes as far down as possible so we can make use of cache for building image faster
+
+5. Use `docker build -t <docker_id>/<repo_name>:<version>` to tag an image
+
+6. Use `docker commit -c <command> <container_id>` to create an image snapshot out of a container
