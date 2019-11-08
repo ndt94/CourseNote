@@ -46,6 +46,18 @@ Note:
 
 4. The order of command in Docker file matter! Put changes as far down as possible so we can make use of cache for building image faster
 
-5. Use `docker build -t <docker_id>/<repo_name>:<version>` to tag an image
+5. Use `docker build -t <docker_id>/<repo_name>:<version> .` to tag an image
 
 6. Use `docker commit -c <command> <container_id>` to create an image snapshot out of a container
+
+# ` Section 4. Building Real Projects with Docker
+
+Note:
+
+1. COPY `<host_path>` `<temp_container_path>`<br>
+   Use COPY command to copy build file from host OS to temporary container in build process
+2. `docker run -p <port_local>:<port_container> <image_name>`<br>
+   Port mapping is a runtime constraint which means it's something that we can only change when we run/start a container
+3. WORKDIR `<container_path>`
+   Add a working directory in container to avoid copy all file into root directory of a container
+4. `Developers should minimizing cache busting and rebuilds`
