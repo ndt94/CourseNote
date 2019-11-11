@@ -50,7 +50,7 @@ Note:
 
 6. Use `docker commit -c <command> <container_id>` to create an image snapshot out of a container
 
-# ` Section 4. Building Real Projects with Docker
+# `Section 4. Building Real Projects with Docker`
 
 Note:
 
@@ -61,3 +61,34 @@ Note:
 3. WORKDIR `<container_path>`
    Add a working directory in container to avoid copy all file into root directory of a container
 4. `Developers should minimizing cache busting and rebuilds`
+
+# `Section 5. Docker Compose with Multiple Local Containers`
+
+Note:
+
+`Docker-compose`
+
+1. Used to start up multiple Docker containers at the same time
+2. Automates some of the long-winded arguments we were passing to 'docker run'
+
+`Docker-compose syntax`
+
+1. services ~ containers
+2. image: Use image from dockerhub
+3. build: `<path>`<br>
+   Usually find a Dockerfile in the current folder by using `.`
+
+`Docker-compose command`
+
+1. `docker-compose up`<br>
+   ~ `docker run <image_name>`
+2. `docker-compose up --build`<br>
+   ~ `docker build .` + `docker run <image_name>`<br>
+3. `docker-compose up -d`<br>
+   Run in background
+4. `docker-compose down`<br>
+   Stop containers
+5. `restart`: `<value>`<br>
+   Choose when to restart a service
+6. `docker-compose ps`<br>
+   Show status of your container in the folder has Dockerfile
