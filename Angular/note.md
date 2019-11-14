@@ -49,3 +49,5 @@ Note:<br>
    2. \*`ngFor`
    3. `ngStyle`
    4. `ngClass`
+
+# `Section 3. Course Project: The Basics`
