@@ -51,3 +51,39 @@ Note:<br>
    4. `ngClass`
 
 # `Section 3. Course Project: The Basics`
+
+# `Section 4. Debugging`
+
+Note:
+
+1. We can use source map in Developer Tools to debug, under `webpack`tab
+2. Using `Augury` to understand and debug your Angular application
+
+# `Section 5. Components and Data binding Deep Dive`
+
+Note:
+
+## Data binding
+
+1. We can use property and event binding on `HTML element`, `Directives`, `Component`
+2. Use `@Input()` decorator to pass data down from a parent component to a child component, you can assign an alias using `@Input('alias')`
+3. Use `@Output()` decorator to pass data up from a child component to a parent component
+4. Use `EventEmitter<T>()` to emit a new event
+5. `View encapsulation` is used to encapsulate CSS to each component which means the CSS in that component only affect itself, but can be override to affect global view
+6. `Local reference` return a HTML element, often use with input
+   Ex: #serverNameInput
+7. Use `@ViewChild()` decorator to access a DOM element
+   Ex: @ViewChild("serverContentInput", { static: true })
+   serverContentInput: ElementRef;
+8. Use `ng-content` to display HTML inside your component selector
+
+## Lifecycle
+
+1. `ngOnChanges`: Called after a bound input property (`@Input()`) changes, run before `ngOnInit`
+2. `ngOnInit`: Called once the component is initialized ( run after `constructor()`)
+3. `ngDoCheck`: Called during every change detection run
+4. `ngAfterContentInit`: Called after content (ng-content) has been projected into view
+5. `ngAfterContentChecked`: Called every time the projected content has been checked
+6. `ngAfterViewInit`: Called after the component’s view (and child views) has been initialized ( `You can access DOM templates here`)
+7. `ngAfterViewChecked`: Called every time the view (and child views) have been checked
+8. `ngOnDestroy`: Called once the component is about to be destroyed (`You can do cleanup in here`)
