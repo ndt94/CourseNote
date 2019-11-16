@@ -39,7 +39,7 @@ Note:<br>
 
    The MDN (Mozilla Developer Network) offers nice lists of all properties and events of the element you're interested in. Googling for YOUR_ELEMENT properties or YOUR_ELEMENT events should yield nice results.
 
-6. When using event binding, (\$event) gives us access to event data
+6. When using event binding, (`$event`) gives us access to event data
 
 ## `Directives`
 
@@ -56,14 +56,14 @@ Note:<br>
 
 Note:
 
-1. We can use source map in Developer Tools to debug, under `webpack`tab
+1. We can use source map in Developer Tools to debug, under `webpack` tab
 2. Using `Augury` to understand and debug your Angular application
 
 # `Section 5. Components and Data binding Deep Dive`
 
 Note:
 
-## Data binding
+## `Data binding`
 
 1. We can use property and event binding on `HTML element`, `Directives`, `Component`
 2. Use `@Input()` decorator to pass data down from a parent component to a child component, you can assign an alias using `@Input('alias')`
@@ -77,7 +77,7 @@ Note:
    serverContentInput: ElementRef;
 8. Use `ng-content` to display HTML inside your component selector
 
-## Lifecycle
+## `Lifecycle`
 
 1. `ngOnChanges`: Called after a bound input property (`@Input()`) changes, run before `ngOnInit`
 2. `ngOnInit`: Called once the component is initialized ( run after `constructor()`)
