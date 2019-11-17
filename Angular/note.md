@@ -72,7 +72,7 @@ Note:
 5. `View encapsulation` is used to encapsulate CSS to each component which means the CSS in that component only affect itself, but can be override to affect global view
 6. `Local reference` return a HTML element, often use with input
    Ex: #serverNameInput
-7. Use `@ViewChild()` decorator to access a DOM element
+7. Use `@ViewChild()` decorator to access a DOM element<br>
    Ex: @ViewChild("serverContentInput", { static: true })
    serverContentInput: ElementRef;
 8. Use `ng-content` to display HTML inside your component selector
@@ -87,3 +87,132 @@ Note:
 6. `ngAfterViewInit`: Called after the component’s view (and child views) has been initialized ( `You can access DOM templates here`)
 7. `ngAfterViewChecked`: Called every time the view (and child views) have been checked
 8. `ngOnDestroy`: Called once the component is about to be destroyed (`You can do cleanup in here`)
+
+# `Section 7. Directive Deep Dive`
+
+Note:
+
+1. `Attribute Directives`
+   1. Look like a normal HTML attribute
+   2. Only affect/change the element they are added to
+2. `Structural Directives`
+   1. Look like a normal HTML attribute but have a leading \* (for desugaring)
+   2. Affect a whole area in the DOM (elements get added/removed)
+3. You can't bind 2 structural directives on the same element
+4. You can create your own `Directives`, remember to import it into the `declarations` array in `app.module.ts` <br>
+   Ex:<br>
+
+```typescript
+import { Directive, ElementRef, OnInit } from "@angular/core";
+
+@Directive({
+  selector: "[appBasicHighlight]"
+})
+export class BasicHighlightDirective implements OnInit {
+  constructor(private elementRef: ElementRef) {}
+
+  ngOnInit() {
+    this.elementRef.nativeElement.style.backgroundColor = "green";
+  }
+}
+```
+
+5. A better way to create your own `Directives` is using the `Renderer`<br>
+   Use `ng g d <path>` to create new directive<br>
+   Ex:<br>
+
+```typescript
+import { Directive, Renderer2, OnInit, ElementRef } from "@angular/core";
+
+@Directive({
+  selector: "[appBetterHighlight]"
+})
+export class BetterHighlightDirective implements OnInit {
+  constructor(private elRef: ElementRef, private renderer: Renderer2) {}
+
+  ngOnInit() {
+    this.renderer.setStyle(
+      this.elRef.nativeElement,
+      "background-color",
+      "blue"
+    );
+  }
+}
+```
+
+6. Using `HostListener` to listen to Host Event<br>
+   Ex:<br>
+
+```typescript
+@HostListener("mouseenter") mouseover(eventData: Event) {
+    this.renderer.setStyle(
+      this.elRef.nativeElement,
+      "background-color",
+      "blue"
+    );
+  }
+
+@HostListener("mouseleave") mouseleave(eventData: Event) {
+    this.renderer.setStyle(
+      this.elRef.nativeElement,
+      "background-color",
+      "transparent"
+    );
+  }
+```
+
+7. Using `HostBinding` to bind to Host Properties<br>
+   Ex:<br>
+
+```typescript
+@HostBinding("style.backgroundColor") backgroundColor = "transparent";
+
+@HostListener("mouseenter") mouseover(eventData: Event) {
+    // this.renderer.setStyle(
+    //   this.elRef.nativeElement,
+    //   "background-color",
+    //   "blue"
+    // );
+    this.backgroundColor = "blue";
+  }
+```
+
+8. You can dynamically settings values from outside using `@Input()` and `Property Binding` on the same `Directive`
+
+9. `*ngIf="expression"` = `<ng-template [ngIf]="expression">`
+
+10. You can build your own `Structural Directives` like `*ngIf`, `*ngFor`<br>
+    Ex:<br>
+
+```typescript
+import { Directive, Input, TemplateRef, ViewContainerRef } from "@angular/core";
+
+@Directive({
+  selector: "[appUnless]"
+})
+export class UnlessDirective {
+  @Input() set appUnless(condition: boolean) {
+    if (!condition) {
+      this.vcRef.createEmbeddedView(this.templateRef);
+    } else {
+      this.vcRef.clear();
+    }
+  }
+  constructor(
+    private templateRef: TemplateRef<any>,
+    private vcRef: ViewContainerRef
+  ) {}
+}
+```
+
+11. Use `ngSwitch` if you have too many `*ngIf` directives<br>
+    Ex:<br>
+
+```typescript
+<div [ngSwitch]="value">
+    <p *ngSwitchCase="5">Value is 5</p>
+    <p *ngSwitchCase="10">Value is 10</p>
+    <p *ngSwitchCase="100">Value is 100</p>
+    <p *ngSwitchDefault>Value is Default</p>
+</div>
+```
