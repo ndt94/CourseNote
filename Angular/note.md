@@ -228,7 +228,7 @@ Note:
 5. `When create a service in constructor, we actually only create an instance of that service, so if we want to create a same instance of the service, don't add that service into the providers array, and the opposite is we want to create different instance of the same service, we add that service into the providers array`
 6. `We can also inject a service into another service`, to do that `remember to provide the service on the AppModule`
 7. The `Injectable()` decorator mean that service can be injected with other service. With this `Injectable` syntax, Services can be loaded lazily by Angular (behind the scenes) and redundant code can be removed automatically. This can lead to a better performance and loading speed - though this really only kicks in for bigger services and apps in general.
-8. In service, we can emit an event and listen to it in other component<br>
+8. In service, we can emit an event and listen to it in other component but you `SHOULDN NOT DO IT` as it's against angular pattern<br>
    Ex:<br>
 
 ```typescript
@@ -240,3 +240,4 @@ ngOnInit() {
     );
   }
 ```
+9. `of(data)` returns an Observable<data> that emits a single value, `data`
