@@ -66,3 +66,7 @@
 ## Lesson 4. Two-way binding
 
 [https://github.com/UltimateAngular/angular-fundamentals-src/tree/master/07-two-way-binding]
+
+## Lesson 5. Template #ref variables
+
+[https://github.com/UltimateAngular/angular-fundamentals-src/tree/master/08-template-refs]
