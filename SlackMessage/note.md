@@ -70,3 +70,4 @@ export class CustomPipe implements PipeTransform {
 3. `In my universe, objects and functions float closest to my code. This reminds me that I can manipulate them and even make more of them.`
 
 `07/02/2020` [https://illustrated.dev/customhooks]
+`Use effect from Dan`: [https://overreacted.io/a-complete-guide-to-useeffect/]
