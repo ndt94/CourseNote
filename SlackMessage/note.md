@@ -71,3 +71,12 @@ export class CustomPipe implements PipeTransform {
 
 `07/02/2020` [https://illustrated.dev/customhooks]
 `Use effect from Dan`: [https://overreacted.io/a-complete-guide-to-useeffect/]
+
+`Resource for writing techtalk #1:`
+
+1.  [https://blog.logrocket.com/the-new-react-lifecycle-methods-in-plain-approachable-language-61a2105859f3/]
+2.  [https://stackoverflow.com/questions/52979915/why-we-dont-need-to-bind-the-arrow-function-in-react]
+3.  [ttps://viblo.asia/p/reactjs-life-cycle-hooks-XL6lAAoNlek#_componentdidupdate-6]
+4.  [https://viblo.asia/p/reactjs-tim-hieu-ve-component-life-cycle-naQZRw4Plvx]
+5.  [https://viblo.asia/p/vong-doi-cua-mot-component-trong-reactjs-3Q75wqMMZWb]
+6.  [https://viblo.asia/p/vong-doi-cua-mot-component-trong-reactjs-voi-es6-aWj531qPZ6m]
