@@ -80,3 +80,5 @@ export class CustomPipe implements PipeTransform {
 4.  [https://viblo.asia/p/reactjs-tim-hieu-ve-component-life-cycle-naQZRw4Plvx]
 5.  [https://viblo.asia/p/vong-doi-cua-mot-component-trong-reactjs-3Q75wqMMZWb]
 6.  [https://viblo.asia/p/vong-doi-cua-mot-component-trong-reactjs-voi-es6-aWj531qPZ6m]
+
+`08/02/2020`: `XState: https://stackoverflow.com/questions/54482695/what-is-an-actual-difference-between-redux-and-a-state-machine-e-g-xstate`
