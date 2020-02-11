@@ -82,3 +82,9 @@ export class CustomPipe implements PipeTransform {
 6.  [https://viblo.asia/p/vong-doi-cua-mot-component-trong-reactjs-voi-es6-aWj531qPZ6m]
 
 `08/02/2020`: `XState: https://stackoverflow.com/questions/54482695/what-is-an-actual-difference-between-redux-and-a-state-machine-e-g-xstate`
+
+`10/02/2020`: [https://medium.com/@sho_mukai/angular-4-life-cycle-functions-and-the-equivalent-react-js-ones-for-fun-293c0742419]
+
+[https://medium.com/@khaledosman/angular-for-react-developers-63239f278158]
+
+`11/02/2020`: [https://www.rockyourcode.com/format-and-fix-all-files-with-prettier-and-es-lint-recursively/]
