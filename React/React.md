@@ -24,5 +24,5 @@
 
 ### TODO
 
-1. `Use normal redux`
+1. `Use normal redux but with hooks and typing for typescript`
 2. `May convert to redux-starter-kit`
