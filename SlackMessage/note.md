@@ -88,3 +88,5 @@ export class CustomPipe implements PipeTransform {
 [https://medium.com/@khaledosman/angular-for-react-developers-63239f278158]
 
 `11/02/2020`: [https://www.rockyourcode.com/format-and-fix-all-files-with-prettier-and-es-lint-recursively/]
+
+`13/02/2020`: [https://stackoverflow.com/questions/51274343/angular-6-why-use-ngrx-store-rather-than-service-injection]
