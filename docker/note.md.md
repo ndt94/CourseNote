@@ -2,7 +2,7 @@
 description: Note about Docker course
 ---
 
-# note.md
+# note
 
 [Permalink](https://github.com/ndt94/CourseNote/blob/29f2c5979280d0c76c7ca4905b6496b6c1a4fa59/Docker/note.md)
 

@@ -2,7 +2,7 @@
 description: Note about Angular course
 ---
 
-# note.md
+# note
 
 ## `Angular 8 Complete Guide`
 

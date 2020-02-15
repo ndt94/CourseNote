@@ -2,7 +2,7 @@
 description: Message from Slack VID
 ---
 
-# slack.md
+# slack
 
 `11/12/2019` `Form Validation: https://angular-templates.io/tutorials/about/angular-forms-and-validations`
 

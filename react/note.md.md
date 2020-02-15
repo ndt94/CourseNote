@@ -2,7 +2,7 @@
 description: Note about React course
 ---
 
-# note.md
+# note
 
 1. `Decide on components`
 2. `Decide the state and where it lives`

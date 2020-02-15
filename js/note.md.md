@@ -2,7 +2,7 @@
 description: Note about JS basic course
 ---
 
-# note.md
+# note
 
 ## Objects In-Depth
 

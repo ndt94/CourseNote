@@ -4,26 +4,26 @@
 
 ## Angular
 
-* [UltimateCourse.md](angular/ultimatecourse.md.md)
-* [note.md](angular/note.md.md)
+* [UltimateCourse](angular/ultimatecourse.md.md)
+* [note](angular/note.md.md)
 
 ## Docker
 
-* [note.md](docker/note.md.md)
+* [note](docker/note.md.md)
 
 ## JS
 
-* [note.md](js/note.md.md)
+* [note](js/note.md.md)
 
 ## React
 
-* [note.md](react/note.md.md)
+* [note](react/note.md.md)
 
 ## Slack
 
-* [slack.md](slack/slack.md.md)
+* [slack](slack/slack.md.md)
 
 ## Typescript
 
-* [note.md](typescript/note.md.md)
+* [note](typescript/note.md.md)
 

@@ -2,7 +2,7 @@
 description: Note about Typescript course
 ---
 
-# note.md
+# note
 
 ## The TS Type System benefits
 
