@@ -96,3 +96,13 @@ export class CustomPipe implements PipeTransform {
 
 `13/02/2020`: \[[https://stackoverflow.com/questions/51274343/angular-6-why-use-ngrx-store-rather-than-service-injection](https://stackoverflow.com/questions/51274343/angular-6-why-use-ngrx-store-rather-than-service-injection)\]
 
+`15/02/2020`:
+
+1. `https://neovim.io/doc/user/`
+2. `https://devtechnica.com/vim-neovim/best-neovim-plugins-for-software-development-in-2019`
+3. `https://jdhao.github.io/2018/12/24/centos_nvim_install_use_guide_en/`
+4. `https://www.linode.com/docs/tools-reference/tools/how-to-install-neovim-and-plugins-with-vim-plug/`
+5. `https://www.freecodecamp.org/news/a-guide-to-modern-web-development-with-neo-vim-333f7efbf8e2/`
+6. `https://www.circuidipity.com/neovim/`
+7. `https://medium.com/usevim/nerd-tree-guide-bb22c803dcd2`
+
