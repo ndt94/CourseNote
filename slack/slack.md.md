@@ -105,4 +105,6 @@ export class CustomPipe implements PipeTransform {
 5. `https://www.freecodecamp.org/news/a-guide-to-modern-web-development-with-neo-vim-333f7efbf8e2/`
 6. `https://www.circuidipity.com/neovim/`
 7. `https://medium.com/usevim/nerd-tree-guide-bb22c803dcd2`
+8. `https://github.com/joshdick/onedark.vim`
+9. `https://vimcolors.com/`
 
