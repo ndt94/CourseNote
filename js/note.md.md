@@ -106,9 +106,23 @@ console.log(Object.keys(drink).includes('name'));
 
 ### Lesson 5. Adding Array Elements
 
-\[[https://stackblitz.com/edit/adding-array-elements](https://stackblitz.com/edit/adding-array-elements)\] `Note`: The splice method doesn't work with spread operators \(mutable\), but slice does \(immutable\)
+\[[https://stackblitz.com/edit/adding-array-elements](https://stackblitz.com/edit/adding-array-elements)\] 
+
+`Note`: The splice method doesn't work with spread operators \(mutable\), but slice does \(immutable\)
 
 ### Lesson 6. Removing Array Elements
 
 \[[https://stackblitz.com/edit/removing-array-elements](https://stackblitz.com/edit/removing-array-elements)\]
+
+### Lesson 7. Finding Array Elements
+
+\[[https://stackblitz.com/edit/finding-elements-in-array](https://stackblitz.com/edit/finding-elements-in-array)\]
+
+### Lesson 8. Shallow and Deep Array Cloning
+
+\[[https://stackblitz.com/edit/shallow-and-deep-array-cloning](https://stackblitz.com/edit/shallow-and-deep-array-cloning)\]
+
+### Lesson 9. Merging Arrays
+
+\[[https://stackblitz.com/edit/merging-arrays](https://stackblitz.com/edit/merging-arrays)\]
 
