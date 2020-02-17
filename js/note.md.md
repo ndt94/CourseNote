@@ -126,3 +126,7 @@ console.log(Object.keys(drink).includes('name'));
 
 \[[https://stackblitz.com/edit/merging-arrays](https://stackblitz.com/edit/merging-arrays)\]
 
+### Lesson 10. Imperative Array Iteration
+
+\[[https://stackblitz.com/edit/imperative-array-iteration](https://stackblitz.com/edit/imperative-array-iteration)\]
+
