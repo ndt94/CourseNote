@@ -108,3 +108,40 @@ export class CustomPipe implements PipeTransform {
 8. `https://github.com/joshdick/onedark.vim`
 9. `https://vimcolors.com/`
 
+`17/02/2020`:
+
+\[[https://calibreapp.com/blog/react-performance-profiling-optimization](https://calibreapp.com/blog/react-performance-profiling-optimization)\]
+
+`18/02/2020`:
+
+```text
+function getMessagebyErrorCode(errorCode) {
+  const error = {
+    '200': 'null',
+    '500': 'Internal server Error',
+    '403': 'Permission denied',
+    '502': 'Bad gatway',
+    '503': 'Service Unavailable',
+    '504': 'Gateway Timeout',
+    '505': 'HTTP Version Not Supported',
+    '301': ' Moved Permanently',
+    default: 'hihi'
+  }
+  return error[errorCode] || error.default
+}
+```
+
+\[[https://basarat.gitbook.io/typescript/](https://basarat.gitbook.io/typescript/)\]
+
+`19/02/2020`:
+
+\[[https://indepth.dev/everything-you-need-to-know-about-change-detection-in-angular/](https://indepth.dev/everything-you-need-to-know-about-change-detection-in-angular/)\]
+
+\[[https://indepth.dev/a-gentle-introduction-into-change-detection-in-angular/](https://indepth.dev/a-gentle-introduction-into-change-detection-in-angular/)\]
+
+\[[https://stackoverflow.com/questions/56785866/why-is-change-detection-called-twice](https://stackoverflow.com/questions/56785866/why-is-change-detection-called-twice)\]
+
+`When the default change detector detects changes, it invokers ngOnChanges() if supplied, regardless of whether you perform additional change detection. Typically, you should not use both DoCheck and OnChanges to respond to changes on the same input.`
+
+`SQL`: \[[https://noads.sqlzoo.net/](https://noads.sqlzoo.net/)\]
+
