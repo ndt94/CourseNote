@@ -145,3 +145,19 @@ function getMessagebyErrorCode(errorCode) {
 
 `SQL`: \[[https://noads.sqlzoo.net/](https://noads.sqlzoo.net/)\]
 
+`24/02/2020`:
+
+\[[https://blog.bitsrc.io/understanding-react-default-props-5c50401ed37d](https://blog.bitsrc.io/understanding-react-default-props-5c50401ed37d)\]
+
+`25/02/2020`:
+
+\[[https://www.amazon.jobs/en/jobs/999366/front-end-engineer](https://www.amazon.jobs/en/jobs/999366/front-end-engineer)\]
+
+\[[https://viblo.asia/p/vuejs-va-nhung-dieu-chua-biet-Eb85oaV8Z2G](https://viblo.asia/p/vuejs-va-nhung-dieu-chua-biet-Eb85oaV8Z2G)\]
+
+\[[https://academind.com/learn/flutter/react-native-vs-flutter-vs-ionic-vs-nativescript-vs-pwa/](https://academind.com/learn/flutter/react-native-vs-flutter-vs-ionic-vs-nativescript-vs-pwa/)\]
+
+`26/02/2020`:
+
+\[[https://kentcdodds.com/blog/usememo-and-usecallback?fbclid=IwAR30yEsj22joMp7TGHRUMyOkInU3xoGadv9oeMHknbAdW3H54nMacgUXN3s](https://kentcdodds.com/blog/usememo-and-usecallback?fbclid=IwAR30yEsj22joMp7TGHRUMyOkInU3xoGadv9oeMHknbAdW3H54nMacgUXN3s)\]
+

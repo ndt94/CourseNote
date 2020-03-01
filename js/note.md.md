@@ -126,3 +126,31 @@ console.log(Object.keys(drink).includes('name'));
 
 \[[https://stackblitz.com/edit/merging-arrays](https://stackblitz.com/edit/merging-arrays)\]
 
+### Lesson 10. Imperative Array Iteration
+
+\[[https://stackblitz.com/edit/imperative-array-iteration](https://stackblitz.com/edit/imperative-array-iteration)\]
+
+### Lesson 11. Iteration with Break and Continue
+
+\[[https://stackblitz.com/edit/iteration-with-break-and-continue](https://stackblitz.com/edit/iteration-with-break-and-continue)\]
+
+### Lesson 12. Iteration with for…of
+
+\[[https://stackblitz.com/edit/iteration-with-forof](https://stackblitz.com/edit/iteration-with-forof)\]
+
+### Lesson 13. Declarative Iteration with Array.forEach
+
+\[[https://stackblitz.com/edit/declarative-iteration-with-arrayforeach](https://stackblitz.com/edit/declarative-iteration-with-arrayforeach)\]
+
+### Lesson 14. Declarative Iteration with Array.map
+
+\[[https://stackblitz.com/edit/declarative-iteration-with-arraymap](https://stackblitz.com/edit/declarative-iteration-with-arraymap)\]
+
+### Lesson 15. Declarative Iteration with Array.filter
+
+\[[https://stackblitz.com/edit/declarative-iteration-with-arrayfilter](https://stackblitz.com/edit/declarative-iteration-with-arrayfilter)\]
+
+### Lesson 16. Declarative Iteration with Array.reduce
+
+\[[https://stackblitz.com/edit/declarative-iteration-with-arrayreduce](https://stackblitz.com/edit/declarative-iteration-with-arrayreduce)\]
+

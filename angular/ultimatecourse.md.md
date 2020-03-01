@@ -77,3 +77,33 @@ description: Note about Angular Ultimate Course
 
 \[[https://github.com/UltimateAngular/angular-fundamentals-src/tree/master/08-template-refs](https://github.com/UltimateAngular/angular-fundamentals-src/tree/master/08-template-refs)\]
 
+## Section 5. Rendering flow
+
+### Lesson 1. ngIf, \* syntax and &lt;ng-template&gt;
+
+\[[https://github.com/UltimateAngular/angular-fundamentals-src/tree/master/09-ng-if](https://github.com/UltimateAngular/angular-fundamentals-src/tree/master/09-ng-if)\]
+
+### Lesson 2. ngFor and iterating collections
+
+\[[https://github.com/UltimateAngular/angular-fundamentals-src/tree/master/10-ng-for](https://github.com/UltimateAngular/angular-fundamentals-src/tree/master/10-ng-for)\]
+
+### Lesson 3. ngClass and className bindings
+
+\[[https://github.com/UltimateAngular/angular-fundamentals-src/tree/master/11-class-ngclass](https://github.com/UltimateAngular/angular-fundamentals-src/tree/master/11-class-ngclass)\]
+
+### Lesson 4. ngStyle and style bindings
+
+\[[https://github.com/UltimateAngular/angular-fundamentals-src/tree/master/12-style-ngstyle](https://github.com/UltimateAngular/angular-fundamentals-src/tree/master/12-style-ngstyle)\]
+
+### Lesson 5. Pipes for data transformation
+
+\[[https://github.com/UltimateAngular/angular-fundamentals-src/tree/master/13-pipes](https://github.com/UltimateAngular/angular-fundamentals-src/tree/master/13-pipes)\]
+
+### Lesson 6. Safe navigation operator
+
+\[[https://github.com/UltimateAngular/angular-fundamentals-src/tree/master/14-safe-navigation](https://github.com/UltimateAngular/angular-fundamentals-src/tree/master/14-safe-navigation)\]
+
+
+
+
+
