@@ -103,6 +103,19 @@ description: Note about Angular Ultimate Course
 
 \[[https://github.com/UltimateAngular/angular-fundamentals-src/tree/master/14-safe-navigation](https://github.com/UltimateAngular/angular-fundamentals-src/tree/master/14-safe-navigation)\]
 
+## Section 6. Component Architecture and Feature Modules
+
+### Lesson 1. Smart and dumb components overview
+
+`Smart`: Communicate with services, hold state, render child components
+
+`Dumb`: Accept data via inputs, emit data changes via event outputs
+
+### Lesson 2. One-way dataflow overview
+
+1. Data flows down
+2. Events emit up
+
 
 
 
