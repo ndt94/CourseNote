@@ -45,5 +45,19 @@ npm i rxjs
 1.  When you subscribe to an `Observable` , a `Subscription` object is returned, and it has a `unsubscribe` method
 2.  Calling unsubscribe will not fire your complete callback, but the returned function will be invoked cleaning up any resources that were created by the subscription
 
+### Lesson 7. Introduction recap and what’s next
+
+1.  `Observables` are pushed based
+2. `Observables` are cold \(by default\) which means they only start emitting values when there is a `Subscriber`
+3.  `Observables` can emit mutiple values
+4. `Observables` can deliver values both synchronously and asynchronously
+5. `Observables` can be cancelled
+
+## Section 2. Creation Operators
+
+### Lesson 1. Introduction to creation operators
+
+
+
 
 
