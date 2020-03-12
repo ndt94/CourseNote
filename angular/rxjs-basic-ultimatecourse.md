@@ -57,9 +57,11 @@ npm i rxjs
 
 ### Lesson 1. Introduction to creation operators
 
-Create `Observable` from any source using creation operators such as `of`, `from`, `fromEvent`, `interval`
+Create `Observable` from almost any source using creation operators such as `of`, `from`, `fromEvent`, `interval`
 
 ### Lesson 2. Create observables from DOM events using fromEvent
+
+\[[https://stackblitz.com/edit/create-observables-from-dom-events-using-fromevent](https://stackblitz.com/edit/create-observables-from-dom-events-using-fromevent)\]
 
 
 
