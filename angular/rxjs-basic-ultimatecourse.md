@@ -32,3 +32,17 @@ npm i rxjs
 1. When not using a object, you can supply 3 function in order `next` , `error`, `complete` . If you don't want any of those 3, just use `null`
 2.  The `Observer` doesn't need to have all 3 methods, but required atleast 1
 
+### Lesson 5. Deliver values asynchronously with observables
+
+\[[https://stackblitz.com/edit/deliver-values-asynchronously-with-observables](https://stackblitz.com/edit/deliver-values-asynchronously-with-observables)\]
+
+### Lesson 6. Manage observable subscriptions with unsubscribe
+
+\[[https://stackblitz.com/edit/manage-observable-subscriptions-with-unsubscribe](https://stackblitz.com/edit/manage-observable-subscriptions-with-unsubscribe)\]
+
+`Note`:
+
+1.  When you subscribe to an `Observable` , a `Subscription` object is returned
+
+
+
