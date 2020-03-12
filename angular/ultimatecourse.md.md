@@ -2,7 +2,7 @@
 description: Note about Angular Ultimate Course
 ---
 
-# UltimateCourse
+# AngularFundamentals\(UltimateCourse\)
 
 ## Section 1. Architecture, setup, source files
 
