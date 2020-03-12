@@ -42,7 +42,8 @@ npm i rxjs
 
 `Note`:
 
-1.  When you subscribe to an `Observable` , a `Subscription` object is returned
+1.  When you subscribe to an `Observable` , a `Subscription` object is returned, and it has a `unsubscribe` method
+2.  Calling unsubscribe will not fire your complete callback, but the returned function will be invoked cleaning up any resources that were created by the subscription
 
 
 
