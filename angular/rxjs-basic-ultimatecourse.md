@@ -22,6 +22,13 @@ npm i rxjs
 
 `Note`: 
 
-1. Observer is just a object with 3 methods : `next`, `error`, `complete`
+1. `Observer` is either a object with 3 methods : `next`, `error`, `complete`  or 3 callback functions
 2. `Observable` is lazy,  they only emit value if there is a `subscriber` aka `Observer` subscribed to it
+
+### Lesson 4. Understanding observers, partial observers, and subscribers
+
+`Note`:
+
+1. When not using a object, you can supply 3 function in order `next` , `error`, `complete` . If you don't want any of those 3, just use `null`
+2.  The `Observer` doesn't need to have all 3 methods, but required atleast 1
 
