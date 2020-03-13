@@ -161,3 +161,17 @@ function getMessagebyErrorCode(errorCode) {
 
 \[[https://kentcdodds.com/blog/usememo-and-usecallback?fbclid=IwAR30yEsj22joMp7TGHRUMyOkInU3xoGadv9oeMHknbAdW3H54nMacgUXN3s](https://kentcdodds.com/blog/usememo-and-usecallback?fbclid=IwAR30yEsj22joMp7TGHRUMyOkInU3xoGadv9oeMHknbAdW3H54nMacgUXN3s)\]
 
+`04/03/2020`:
+
+\[[https://stackoverflow.com/questions/53215285/how-can-i-force-component-to-re-render-with-hooks-in-react](https://stackoverflow.com/questions/53215285/how-can-i-force-component-to-re-render-with-hooks-in-react)\]
+
+`06/03/2020`:
+
+\[[https://blog.logrocket.com/introduction-to-vue-lifecycle-hooks/](https://blog.logrocket.com/introduction-to-vue-lifecycle-hooks/)\]
+
+`09/03/2020`:
+
+\[[https://1morethingteam.slack.com/archives/CQ8BR083B/p1583723403223400?thread\_ts=1583136667.156600&cid=CQ8BR083B](https://1morethingteam.slack.com/archives/CQ8BR083B/p1583723403223400?thread_ts=1583136667.156600&cid=CQ8BR083B)\]
+
+
+
