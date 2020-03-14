@@ -109,6 +109,14 @@ We can even use text description of these diagrams to write unit test
 
 ### Lesson 3. Transform streams using map, pluck, and mapTo
 
+\[[https://stackblitz.com/edit/transform-streams-using-map-pluck-and-mapto](https://stackblitz.com/edit/transform-streams-using-map-pluck-and-mapto)\]
+
+`Note`:
+
+1. `map` is used to extract 1 or more properties on an object
+2. `pluck` is used to extract a property\(even nested property\) on an object
+3. `mapTo` is use to emit a given constant value whenever the source `Observable` emits a value
+
 
 
 
