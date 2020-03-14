@@ -99,6 +99,16 @@ Create `Observable` from almost any source using creation operators such as `of`
 
 ### Lesson 2. Introduction to marble diagrams
 
+`Note`:
+
+1. Input diagrams
+2. Operator
+3. Output diagrams
+
+We can even use text description of these diagrams to write unit test
+
+### Lesson 3. Transform streams using map, pluck, and mapTo
+
 
 
 
