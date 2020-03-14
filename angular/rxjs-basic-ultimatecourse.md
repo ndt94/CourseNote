@@ -63,5 +63,13 @@ Create `Observable` from almost any source using creation operators such as `of`
 
 \[[https://stackblitz.com/edit/create-observables-from-dom-events-using-fromevent](https://stackblitz.com/edit/create-observables-from-dom-events-using-fromevent)\]
 
+### Lesson 3. Create observables from static values using of
+
+\[[https://stackblitz.com/edit/create-observables-from-static-values-using-of](https://stackblitz.com/edit/create-observables-from-static-values-using-of)\]
+
+### Lesson 4. Turn arrays, iterators, and promises into observables using from
+
+
+
 
 
