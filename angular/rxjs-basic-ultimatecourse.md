@@ -73,5 +73,20 @@ Create `Observable` from almost any source using creation operators such as `of`
 
 \[[https://stackblitz.com/edit/turn-arrays-iterators-and-promises-into-observables-using-from](https://stackblitz.com/edit/turn-arrays-iterators-and-promises-into-observables-using-from)\]
 
+### Lesson 5. Emit items based on a duration with interval and timer
+
+\[[https://stackblitz.com/edit/emit-items-based-on-a-duration-with-interval-and-timer](https://stackblitz.com/edit/emit-items-based-on-a-duration-with-interval-and-timer)\]
+
+### Lesson 6. Creation operators recap and what’s next
+
+`Note`: `Pipeable` Operators can:
+
+1. Combine streams
+2. Filter streams
+3. Transform streams
+4. + more
+
+
+
 
 
