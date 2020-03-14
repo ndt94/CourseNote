@@ -90,6 +90,17 @@ Create `Observable` from almost any source using creation operators such as `of`
 
 ### Lesson 1. Introduction to operators
 
+`Recap`:
+
+1. `Operators` are the power behind RxJS, letting you more easily compose complex asynchronus code
+2. `Operators` can be applied by including them into `pipe` method
+3. `Operators` returns a new `Observable` without modifying the input `Observable`
+4.  A core set of operators can solve the majority of use cases, while others can be picked up as the situation arise
+
+### Lesson 2. Introduction to marble diagrams
+
+
+
 
 
 
