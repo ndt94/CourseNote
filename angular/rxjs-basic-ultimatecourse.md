@@ -86,6 +86,10 @@ Create `Observable` from almost any source using creation operators such as `of`
 3. Transform streams
 4. + more
 
+## Section 3. Getting Started with Operators
+
+### Lesson 1. Introduction to operators
+
 
 
 
