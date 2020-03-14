@@ -69,7 +69,9 @@ Create `Observable` from almost any source using creation operators such as `of`
 
 ### Lesson 4. Turn arrays, iterators, and promises into observables using from
 
+`Note`: `from` depends on the type of value, `from` accept `Observable`, `Promise`, `Array`, or `Iterable` \(like string\).
 
+\[[https://stackblitz.com/edit/turn-arrays-iterators-and-promises-into-observables-using-from](https://stackblitz.com/edit/turn-arrays-iterators-and-promises-into-observables-using-from)\]
 
 
 
