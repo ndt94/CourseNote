@@ -117,6 +117,10 @@ We can even use text description of these diagrams to write unit test
 2. `pluck` is used to extract a property\(even nested property\) on an object
 3. `mapTo` is use to emit a given constant value whenever the source `Observable` emits a value
 
+### Lesson 4.  Ignore unneeded values with filter
+
+\[[https://stackblitz.com/edit/ignore-unneeded-values-with-filter](https://stackblitz.com/edit/ignore-unneeded-values-with-filter)\]
+
 
 
 
