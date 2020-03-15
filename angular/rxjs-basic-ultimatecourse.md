@@ -121,6 +121,10 @@ We can even use text description of these diagrams to write unit test
 
 \[[https://stackblitz.com/edit/ignore-unneeded-values-with-filter](https://stackblitz.com/edit/ignore-unneeded-values-with-filter)\]
 
+### Lesson 5. Create a scroll progress bar with fromEvent and map
+
+\[[https://stackblitz.com/edit/lab-1-create-a-scroll-progress-bar-with-fromevent-and-map](https://stackblitz.com/edit/lab-1-create-a-scroll-progress-bar-with-fromevent-and-map)\]
+
 
 
 
