@@ -153,6 +153,19 @@ We can even use text description of these diagrams to write unit test
 
 ## Section 4. Filtering Operators
 
+### Lesson 1.  Introduction to filtering operators
+
+`Recap`:
+
+1. Ignores values based on some criteria
+
+   1. filtering out special event
+   2. removing duplicate emissions
+   3. completing observable on conditions
+   4. + more
+
+2. Some operators to explore: `take`, `takeUntil`, `takeWhile`, `distinctUntilChanged`
+
 
 
 
