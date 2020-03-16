@@ -125,6 +125,25 @@ We can even use text description of these diagrams to write unit test
 
 \[[https://stackblitz.com/edit/lab-1-create-a-scroll-progress-bar-with-fromevent-and-map](https://stackblitz.com/edit/lab-1-create-a-scroll-progress-bar-with-fromevent-and-map)\]
 
+### Lesson 6. Accumulate data over time using reduce
+
+\[[https://stackblitz.com/edit/accumulate-data-over-time-using-reduce](https://stackblitz.com/edit/accumulate-data-over-time-using-reduce)\]
+
+`Note`:
+
+1. `reduce` only emits one value, the final accumulated value
+2. use `scan` if you want to emit each accumulated value
+
+### Lesson 7. Manage state changes incrementally with scan
+
+\[[https://stackblitz.com/edit/manage-state-changes-incrementally-with-scan](https://stackblitz.com/edit/manage-state-changes-incrementally-with-scan)\]
+
+### Lesson 8. Create a countdown timer using fromEvent, map, and scan
+
+
+
+
+
 
 
 
