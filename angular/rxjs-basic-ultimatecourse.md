@@ -138,9 +138,20 @@ We can even use text description of these diagrams to write unit test
 
 \[[https://stackblitz.com/edit/manage-state-changes-incrementally-with-scan](https://stackblitz.com/edit/manage-state-changes-incrementally-with-scan)\]
 
-### Lesson 8. Create a countdown timer using fromEvent, map, and scan
+### Lesson 8. Create a countdown timer using interval, map, and scan
 
+\[[https://stackblitz.com/edit/create-a-countdown-timer-using-fromevent-map-and-scan](https://stackblitz.com/edit/create-a-countdown-timer-using-fromevent-map-and-scan)\]
 
+### Lesson 9. Debug your observable streams with tap
+
+\[[https://stackblitz.com/edit/debug-your-observable-streams-with-tap](https://stackblitz.com/edit/debug-your-observable-streams-with-tap)\]
+
+`Note`:
+
+1. Avoid jamming side-effects into `tap` , side-effects should be handle inside `subscribe`
+2.  Usually `tap` is use for debugging, console log value in the streams
+
+## Section 4. Filtering Operators
 
 
 
