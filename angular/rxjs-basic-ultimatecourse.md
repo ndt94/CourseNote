@@ -166,6 +166,15 @@ We can even use text description of these diagrams to write unit test
 
 2. Some operators to explore: `take`, `takeUntil`, `takeWhile`, `distinctUntilChanged`
 
+### Lesson 2. Emit a set number of values from a stream with take
+
+\[[https://stackblitz.com/edit/emit-a-set-number-of-values-from-a-stream-with-take](https://stackblitz.com/edit/emit-a-set-number-of-values-from-a-stream-with-take)\]
+
+`Note`:
+
+1. Use `take` when you want to only take a number of values from stream
+2. If you want to only take the 1st value that match some condition, you can also use `first` compare to using `take(1)` combine with `filter`
+
 
 
 
