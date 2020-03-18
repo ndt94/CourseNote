@@ -175,6 +175,32 @@ We can even use text description of these diagrams to write unit test
 1. Use `take` when you want to only take a number of values from stream
 2. If you want to only take the 1st value that match some condition, you can also use `first` compare to using `take(1)` combine with `filter`
 
+### Lesson 3. Complete a stream when a condition is met with takeWhile
+
+\[[https://stackblitz.com/edit/complete-a-stream-when-a-condition-is-met-with-takewhile](https://stackblitz.com/edit/complete-a-stream-when-a-condition-is-met-with-takewhile)\]
+
+`Note`: `takeWhile` complete a stream while `filter` still let the stream run behind the scene
+
+### Lesson 4. Complete a stream based on another stream using takeUntil
+
+\[[https://stackblitz.com/edit/complete-a-stream-based-on-another-stream-using-takeuntil](https://stackblitz.com/edit/complete-a-stream-based-on-another-stream-using-takeuntil)\]
+
+`Note`:
+
+1. When you want to to complete a stream base on other stream we can use `takeUntil`
+2. `takeUntil(notifier$)`
+
+### Lesson 5. Ignore non unique values using distinctUntilChanged
+
+\[[https://stackblitz.com/edit/ignore-non-unique-values-using-distinctuntilchanged](https://stackblitz.com/edit/ignore-non-unique-values-using-distinctuntilchanged)\]
+
+`Note`:
+
+1. `distinctUntilChanged` can take a compare function to decide which value is unique\(can use w `lodash` library\)
+2. When to compare a property object in between emitsion, you can use `distinctUntilKeyChanged`
+
+
+
 
 
 
