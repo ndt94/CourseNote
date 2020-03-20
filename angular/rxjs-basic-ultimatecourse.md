@@ -216,7 +216,13 @@ We can even use text description of these diagrams to write unit test
 
 \[[https://stackblitz.com/edit/take-the-latest-value-after-a-pause-debouncetime](https://stackblitz.com/edit/take-the-latest-value-after-a-pause-debouncetime)\]
 
+`Note:`
 
+1. Emits a value from the source Observable only after a particular time span has passed without another source emission.
+2. Common use case: Use with input type
+3. Commonly use with `distinctUntilChanged` to avoid sending the same value twice
+
+### Lesson 3. Ignore values during windows using throttleTime
 
 
 
