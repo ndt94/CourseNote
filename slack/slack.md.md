@@ -173,5 +173,11 @@ function getMessagebyErrorCode(errorCode) {
 
 \[[https://1morethingteam.slack.com/archives/CQ8BR083B/p1583723403223400?thread\_ts=1583136667.156600&cid=CQ8BR083B](https://1morethingteam.slack.com/archives/CQ8BR083B/p1583723403223400?thread_ts=1583136667.156600&cid=CQ8BR083B)\]
 
+`21/03/2020`:
+
+\[[https://blogs.msmvps.com/deborahk/higher-order-observable/](https://blogs.msmvps.com/deborahk/higher-order-observable/)\]
+
+\[[http://alanpryorjr.com/2019-05-15-rxjs-flattening-operators/](http://alanpryorjr.com/2019-05-15-rxjs-flattening-operators/)\]
+
 
 
