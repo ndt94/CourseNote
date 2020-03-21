@@ -224,15 +224,27 @@ We can even use text description of these diagrams to write unit test
 
 ### Lesson 3. Ignore values during windows using throttleTime
 
-\[[https://stackblitz.com/edit/ignore-values-during-windows-using-throttletime?file=index.ts](https://stackblitz.com/edit/ignore-values-during-windows-using-throttletime?file=index.ts)\]
+\[[https://stackblitz.com/edit/ignore-values-during-windows-using-throttletime](https://stackblitz.com/edit/ignore-values-during-windows-using-throttletime)\]
 
+### Lesson 4. Sample a stream on a uniform duration using sampleTime
 
+\[[https://stackblitz.com/edit/sample-a-stream-on-a-uniform-duration-using-sampletime](https://stackblitz.com/edit/sample-a-stream-on-a-uniform-duration-using-sampletime)\]
 
+`Note`:
 
+1.  `sampleTime` emits the most recently emitted value from the source Observable within periodic time intervals.
 
+### Lesson 5. Audit a stream for a duration after an event occurs using auditTime
 
+`Note`:
 
+1. `auditTime` ignores source values for `duration` milliseconds, then emits the most recent value from the source Observable, then repeats this process.
 
+`Recap`: Compare chart between `debounceTime`, `throttleTime`,  `sampleTime`, `auditTime`
+
+![Compare chart between 4 rate limiting operator](../.gitbook/assets/screenshot-from-2020-03-21-09-31-11.png)
+
+## Section 6. Transformation Operators
 
 
 
