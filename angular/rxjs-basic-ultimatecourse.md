@@ -246,5 +246,23 @@ We can even use text description of these diagrams to write unit test
 
 ## Section 6. Transformation Operators
 
+### Lesson 1. Introduction to transformation operators
 
+`Recap`:
+
+1. Transform value as they flow through stream
+2. Flattening operators
+   1. What does `flattening` mean?
+   2. Comparing `mergeMap`, `concatMap`, `switchMap`, `exhaustMap`
+3.  Often used operator with transformation operators
+   1. `catchError`, `finalize`, `delay`
+
+### Lesson 2. What’s a flattening operator?
+
+`Recap`: 
+
+1. `Flattening operator` takes in an observable that emits another observable subscribing internally, emitting result to outer stream
+2. Why use `Flattening operator` ? Because of the nature of Observable, lazy by default, that means we have to subscribe from the `inner observable` then subscribe again on the `outer observable` , to avoid that we can use `Flattening operator` to only subscribe once at the `outer observable`
+
+### Lesson 3. Switch to a new observable on emissions using switchMap
 
