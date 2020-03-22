@@ -197,7 +197,7 @@ We can even use text description of these diagrams to write unit test
 `Note`:
 
 1. `distinctUntilChanged` can take a compare function to decide which value is unique\(can use w `lodash` library\)
-2. When to compare a property object in between emitsion, you can use `distinctUntilKeyChanged`
+2. When to compare a property object in between emission, you can use `distinctUntilKeyChanged`
 
 ## Section 5. Rate Limiting Operators
 
@@ -209,7 +209,7 @@ We can even use text description of these diagrams to write unit test
    1. emiting lastest value after a pause
    2. sampling stream on certain duration
    3. other time based conditions
-2. Some operators to expore
+2. Some operators to explore
    1. `debounceTime`, `throttleTime`, `sampleTime`, `auditTime`
 
 ### Lesson 2. Take the latest value after a pause debounceTime
