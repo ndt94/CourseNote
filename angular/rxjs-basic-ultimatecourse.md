@@ -264,5 +264,5 @@ We can even use text description of these diagrams to write unit test
 1. `Flattening operator` takes in an observable that emits another observable subscribing internally, emitting result to outer stream
 2. Why use `Flattening operator` ? Because of the nature of Observable, lazy by default, that means we have to subscribe from the `inner observable` then subscribe again on the `outer observable` , to avoid that we can use `Flattening operator` to only subscribe once at the `outer observable`
 
-### Lesson 3. Switch to a new observable on emissions using switchMap
+### Lesson 3. Flatten inner observables as they occur with mergeMap
 
