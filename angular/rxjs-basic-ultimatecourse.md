@@ -266,3 +266,15 @@ We can even use text description of these diagrams to write unit test
 
 ### Lesson 3. Flatten inner observables as they occur with mergeMap
 
+\[[https://stackblitz.com/edit/flatten-inner-observables-as-they-occur-with-mergemap](https://stackblitz.com/edit/flatten-inner-observables-as-they-occur-with-mergemap)\]
+
+`Note`:
+
+1. Map values to new observable on emission from source, subscribing to and emitting results from inner observables
+2. By default, `mergeMap` does not limit the number of active inner observables, and if the inner observable is like `interval` then the outer observable will repeat itself
+3. Useful for HTTP requests you don't want to cancel, like POST
+4. Inner observable whose life time you want to manage using operator like `take`, `takeUntil`
+5. Remember to cleanup inner observable or it will cause memory leak
+
+### Lesson 4.
+
