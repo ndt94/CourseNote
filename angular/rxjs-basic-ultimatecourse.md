@@ -271,7 +271,7 @@ We can even use text description of these diagrams to write unit test
 `Note`:
 
 1. Map values to new observable on emission from source, subscribing to and emitting results from inner observables
-2. By default, `mergeMap` does not limit the number of active inner observables, and if the inner observable is like `interval` then the outer observable will repeat itself
+2. By default, `mergeMap` does not limit the number of active inner observables, and if the inner observable is like `interval` then the outer observable will repeat itself, you can limit the number of active inner observables using 3rd parameter call `concurrent`
 3. Useful for HTTP requests you don't want to cancel, like POST
 4. Inner observable whose life time you want to manage using operator like `take`, `takeUntil`
 5. Remember to cleanup inner observable or it will cause memory leak
