@@ -276,5 +276,7 @@ We can even use text description of these diagrams to write unit test
 4. Inner observable whose life time you want to manage using operator like `take`, `takeUntil`
 5. Remember to cleanup inner observable or it will cause memory leak
 
+![](../.gitbook/assets/flatten_inner_observables_as_they_occur_with_mergemap___ultimate_courses-tm.png)
+
 ### Lesson 4.
 
