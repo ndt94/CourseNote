@@ -30,7 +30,7 @@ npm i rxjs
 `Note`:
 
 1. When not using a object, you can supply 3 function in order `next` , `error`, `complete` . If you don't want any of those 3, just use `null`
-2.  The `Observer` doesn't need to have all 3 methods, but required atleast 1
+2.  The `Observer` doesn't need to have all 3 methods, but required at least 1
 
 ### Lesson 5. Deliver values asynchronously with observables
 
@@ -49,7 +49,7 @@ npm i rxjs
 
 1.  `Observables` are pushed based
 2. `Observables` are cold \(by default\) which means they only start emitting values when there is a `Subscriber`
-3.  `Observables` can emit mutiple values
+3.  `Observables` can emit multiple values
 4. `Observables` can deliver values both synchronously and asynchronously
 5. `Observables` can be cancelled
 
@@ -92,7 +92,7 @@ Create `Observable` from almost any source using creation operators such as `of`
 
 `Recap`:
 
-1. `Operators` are the power behind RxJS, letting you more easily compose complex asynchronus code
+1. `Operators` are the power behind RxJS, letting you more easily compose complex asynchronous code
 2. `Operators` can be applied by including them into `pipe` method
 3. `Operators` returns a new `Observable` without modifying the input `Observable`
 4.  A core set of operators can solve the majority of use cases, while others can be picked up as the situation arise
@@ -206,7 +206,7 @@ We can even use text description of these diagrams to write unit test
 `Recap`:
 
 1. `Time based` filtering operators
-   1. emiting lastest value after a pause
+   1. emitting last value after a pause
    2. sampling stream on certain duration
    3. other time based conditions
 2. Some operators to explore
