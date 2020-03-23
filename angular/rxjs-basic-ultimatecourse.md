@@ -324,6 +324,10 @@ We can even use text description of these diagrams to write unit test
 
 ![catchError marble diagram](../.gitbook/assets/screenshot-from-2020-03-23-11-54-37.png)
 
+### Lesson 8. Create an HTTP polling solution
+
+\[[https://stackblitz.com/edit/create-an-http-polling-solution](https://stackblitz.com/edit/create-an-http-polling-solution)\]
+
 
 
 
