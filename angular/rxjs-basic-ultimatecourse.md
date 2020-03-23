@@ -292,5 +292,21 @@ We can even use text description of these diagrams to write unit test
 
 ![switchMap marble diagram](../.gitbook/assets/screenshot-from-2020-03-23-09-13-36.png)
 
+### Lesson 5. Subscribe to observables in order with concatMap
+
+\[[https://stackblitz.com/edit/subscribe-to-observables-in-order-with-concatmap](https://stackblitz.com/edit/subscribe-to-observables-in-order-with-concatmap)\]
+
+`Note`:
+
+1. Maintains one active inner subscription, activates next observable when previous completes
+2. Use when order of execution is important and inner observables have finite lifespans
+3. Be careful if you have long running inner observables, or subsequent mapped observables could backup or never execute
+
+![concatMap marble diagram](../.gitbook/assets/screenshot-from-2020-03-23-11-36-58.png)
+
+### Lesson 6. Ignore emissions when an inner observable is active with exhaustMap
+
+
+
 
 
