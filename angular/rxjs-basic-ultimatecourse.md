@@ -306,6 +306,16 @@ We can even use text description of these diagrams to write unit test
 
 ### Lesson 6. Ignore emissions when an inner observable is active with exhaustMap
 
+`Note`:
+
+1. Ignores emitted values when there is an active inner observable
+2. Use when quick, subsequent emissions can be ignored, like a refresh button or login request
+3. Avoid if cancellation is important, or ignoring emissions from the source would cause undesired effects
+
+![exhaustMap marble diagram](../.gitbook/assets/screenshot-from-2020-03-23-11-39-38.png)
+
+### Lesson 7. Catch errors on observables with catchError
+
 
 
 
