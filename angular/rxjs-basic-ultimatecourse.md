@@ -316,6 +316,14 @@ We can even use text description of these diagrams to write unit test
 
 ### Lesson 7. Catch errors on observables with catchError
 
+\[[https://stackblitz.com/edit/catch-errors-on-observables-with-catcherror](https://stackblitz.com/edit/catch-errors-on-observables-with-catcherror)\]
+
+`Note`:
+
+1. `catchError` does complete your observable, so be careful where you want to use them
+
+![catchError marble diagram](../.gitbook/assets/screenshot-from-2020-03-23-11-54-37.png)
+
 
 
 
