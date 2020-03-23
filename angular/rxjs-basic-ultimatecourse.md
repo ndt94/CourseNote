@@ -278,5 +278,19 @@ We can even use text description of these diagrams to write unit test
 
 ![](../.gitbook/assets/flatten_inner_observables_as_they_occur_with_mergemap___ultimate_courses-tm.png)
 
-### Lesson 4.
+### Lesson 4. Switch to a new observable on emissions using switchMap
+
+\[[https://stackblitz.com/edit/switch-to-a-new-observable-on-emissions-using-switchmapp](https://stackblitz.com/edit/switch-to-a-new-observable-on-emissions-using-switchmapp)\]
+
+`Note`:
+
+1. `switchMap` switches to a new observable on emissions from source, cancelling any previous active inner observable
+2. Safest default for flattening, hard to create leaks like `mergeMap`
+3. Useful for HTTP request that can be cancelled \(GET\)
+4. Great for reset, pause, resume functionality
+5. Avoid `switchMap` when cancellation could have undesired effects, such as saves \(POST\)
+
+![switchMap marble diagram](../.gitbook/assets/screenshot-from-2020-03-23-09-13-36.png)
+
+
 
