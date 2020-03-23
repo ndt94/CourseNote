@@ -328,6 +328,23 @@ We can even use text description of these diagrams to write unit test
 
 \[[https://stackblitz.com/edit/create-an-http-polling-solution](https://stackblitz.com/edit/create-an-http-polling-solution)\]
 
+## Section 7. Combination Operators
+
+### Lesson 1.  Introduction to combination operators
+
+`Recap`:
+
+1. Join multiple observables into single stream
+
+   1. Combine multiple requests
+   2. Perform calculations based on multiple stream inputs
+   3. Tacking on values to beginning or end of stream
+   4. `startWith`, `concat`, `merge`, `combineLatest`, `forkJoin`...
+
+2. Sharing observable execution with the `share` operator
+
+### Lesson 2. Append values to a stream using startWith and endWith
+
 
 
 
