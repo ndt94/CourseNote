@@ -359,6 +359,16 @@ We can even use text description of these diagrams to write unit test
 
 ![concat marble diagram](../.gitbook/assets/screenshot-from-2020-03-24-09-11-09.png)
 
+### Lesson 4. Combine multiple active observables using merge
+
+\[[https://stackblitz.com/edit/combine-multiple-active-observables-using-merge](https://stackblitz.com/edit/combine-multiple-active-observables-using-merge)\]
+
+`Note`: 
+
+1. `merge` creates an output Observable which concurrently emits all values from every given input Observable.
+
+![merge marble diagram](../.gitbook/assets/screenshot-from-2020-03-24-10-39-58.png)
+
 
 
 
