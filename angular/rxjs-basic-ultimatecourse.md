@@ -351,6 +351,12 @@ We can even use text description of these diagrams to write unit test
 
 ### Lesson 3. Queue observable execution using concat
 
+\[[https://stackblitz.com/edit/queue-observable-execution-using-concat](https://stackblitz.com/edit/queue-observable-execution-using-concat)\]
+
+`concat` concatenates multiple Observables together by sequentially emitting their values, one Observable after the other.
+
+1. Use case: ordered HTTP request, animation, countdown UI
+
 
 
 
