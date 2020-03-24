@@ -349,7 +349,7 @@ We can even use text description of these diagrams to write unit test
 
 ![startWith marble diagram](../.gitbook/assets/screenshot-from-2020-03-24-08-59-33.png)
 
-### Lesson 3.
+### Lesson 3. Queue observable execution using concat
 
 
 
