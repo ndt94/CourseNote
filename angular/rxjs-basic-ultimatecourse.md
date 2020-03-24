@@ -345,6 +345,12 @@ We can even use text description of these diagrams to write unit test
 
 ### Lesson 2. Append values to a stream using startWith and endWith
 
+\[[https://stackblitz.com/edit/append-values-to-a-stream-using-startwith-and-endwith](https://stackblitz.com/edit/append-values-to-a-stream-using-startwith-and-endwith)\]
+
+![startWith marble diagram](../.gitbook/assets/screenshot-from-2020-03-24-08-59-33.png)
+
+### Lesson 3.
+
 
 
 
