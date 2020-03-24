@@ -357,6 +357,8 @@ We can even use text description of these diagrams to write unit test
 
 1. Use case: ordered HTTP request, animation, countdown UI
 
+![concat marble diagram](../.gitbook/assets/screenshot-from-2020-03-24-09-11-09.png)
+
 
 
 
