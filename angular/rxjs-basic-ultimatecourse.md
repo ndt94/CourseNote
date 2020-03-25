@@ -369,7 +369,19 @@ We can even use text description of these diagrams to write unit test
 
 ![merge marble diagram](../.gitbook/assets/screenshot-from-2020-03-24-10-39-58.png)
 
+### Lesson 5. Receive the latest values from multiple observables on emissions using combineLatest
 
+\[[https://stackblitz.com/edit/receive-the-latest-values-from-multiple-observables-on-emissio](https://stackblitz.com/edit/receive-the-latest-values-from-multiple-observables-on-emissio)\]
+
+`Note`:
+
+1. Each time any stream provided to `combineLatest` emits a value, the latest value from all provided streams will be emitted as an array. Note that all provided streams must emit at least one value `beforecombineLatest` will emit any values.
+2. When you want to augment one stream with information from a second stream on emitted values, `withLatestFrom` is a perfect choice.
+3. `combineLatest` is great when an element depends on the combination of multiple streams to make some calculation or determination.
+
+![combineLatest marble diagram](../.gitbook/assets/receive_the_latest_values_from_multiple_observables_on_emissions_using_combinelatest___ultimate_cour.jpg)
+
+### Lesson 6. Receive the latest value from multiple observable on completion with forkJoin
 
 
 
