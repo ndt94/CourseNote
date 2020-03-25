@@ -383,5 +383,13 @@ We can even use text description of these diagrams to write unit test
 
 ### Lesson 6. Receive the latest value from multiple observable on completion with forkJoin
 
+\[[https://stackblitz.com/edit/receive-the-latest-value-from-multiple-observable-on-completion](https://stackblitz.com/edit/receive-the-latest-value-from-multiple-observable-on-completion)\]
+
+`Note`:
+
+1. `forkJoin` can either emit as an array or an object, we prefer object because it much easier to extract properties
+
+![forkJoin marble diagram](../.gitbook/assets/receive_the_latest_values_from_multiple_observables_on_emissions_using_combinelatest___ultimate_cour%20%281%29.jpg)
+
 
 
