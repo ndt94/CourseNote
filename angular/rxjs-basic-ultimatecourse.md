@@ -391,5 +391,9 @@ We can even use text description of these diagrams to write unit test
 
 ![forkJoin marble diagram](../.gitbook/assets/receive_the_latest_values_from_multiple_observables_on_emissions_using_combinelatest___ultimate_cour%20%281%29.jpg)
 
+### Lesson 7. Create a Mortgage Calculator
+
+\[[https://stackblitz.com/edit/create-a-mortgage-calculator](https://stackblitz.com/edit/create-a-mortgage-calculator)\]
+
 
 
