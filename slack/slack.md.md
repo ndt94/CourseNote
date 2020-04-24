@@ -179,5 +179,59 @@ function getMessagebyErrorCode(errorCode) {
 
 \[[http://alanpryorjr.com/2019-05-15-rxjs-flattening-operators/](http://alanpryorjr.com/2019-05-15-rxjs-flattening-operators/)\]
 
+`26/03/2020`:
 
+\[[https://stackoverflow.com/questions/44864303/send-data-through-routing-paths-in-angular](https://stackoverflow.com/questions/44864303/send-data-through-routing-paths-in-angular)\]
+
+`06/04/2020`:
+
+\[[https://rxjs-visualize.explosionpills.com/,race,combineLatest](https://rxjs-visualize.explosionpills.com/,race,combineLatest)\]
+
+`08/04/2020`:
+
+\[[https://stackoverflow.com/questions/8640887/git-merge-without-auto-commit](https://stackoverflow.com/questions/8640887/git-merge-without-auto-commit)\]
+
+`13/04/2020`:
+
+\[[https://duncanhunter.gitbook.io/angular-and-ngrx/18.-create-selectors](https://duncanhunter.gitbook.io/angular-and-ngrx/18.-create-selectors)\]
+
+`Ngrx v8`: \[[https://www.youtube.com/playlist?list=PLV-DQnYj14bQr0pqsdfUvbXlBtC\_9L1dB](https://www.youtube.com/playlist?list=PLV-DQnYj14bQr0pqsdfUvbXlBtC_9L1dB)\]
+
+\[[https://stackblitz.com/edit/angular6-json-schema-form?file=src%2Fapp%2FjsonSchema.ts](https://stackblitz.com/edit/angular6-json-schema-form?file=src%2Fapp%2FjsonSchema.ts)\]
+
+`14/04/2020`:
+
+```text
+ng generate store ProductState --statePath=products/store --module=products/products.module.ts --stateInterface=ProductStat
+```
+
+\[[https://ultimatecourses.com/blog/ngrx-store-understanding-state-selectors](https://ultimatecourses.com/blog/ngrx-store-understanding-state-selectors)\]
+
+\[[https://blog.angular-university.io/ngrx-entity/](https://blog.angular-university.io/ngrx-entity/)\]
+
+`16/04/2020`:
+
+\[[https://redux.js.org/recipes/structuring-reducers/normalizing-state-shape](https://redux.js.org/recipes/structuring-reducers/normalizing-state-shape)\]
+
+\[[https://blog.angular-university.io/](https://blog.angular-university.io/)\]
+
+`18/04/2020`:
+
+\[[https://levelup.gitconnected.com/typescript-validation-with-ajv-1b70a76dd678](https://levelup.gitconnected.com/typescript-validation-with-ajv-1b70a76dd678)\]
+
+`20/04/2020`:
+
+`Select all option angular`: Được viết sẵn ở component new-rules của module voucher-scan-and-go
+
+\[[https://stackoverflow.com/questions/48745256/how-to-toggle-mat-expansion-panel-with-button-click](https://stackoverflow.com/questions/48745256/how-to-toggle-mat-expansion-panel-with-button-click)\]
+
+`23/04/2020`:
+
+`Custom sort header on mat-table` : Được viết ở component lead-list của module Lead của project `crm-sale-portal`
+
+`24/04/2020`:
+
+\[[https://medium.com/city-pantry/handling-errors-in-ngrx-effects-a95d918490d9](https://medium.com/city-pantry/handling-errors-in-ngrx-effects-a95d918490d9)\]
+
+\[[https://indepth.dev/ngrx-how-and-where-to-handle-loading-and-error-states-of-ajax-calls/](https://indepth.dev/ngrx-how-and-where-to-handle-loading-and-error-states-of-ajax-calls/)\]
 
