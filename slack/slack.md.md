@@ -231,7 +231,13 @@ ng generate store ProductState --statePath=products/store --module=products/prod
 
 `24/04/2020`:
 
+`Handle error in ngrx`
+
 \[[https://medium.com/city-pantry/handling-errors-in-ngrx-effects-a95d918490d9](https://medium.com/city-pantry/handling-errors-in-ngrx-effects-a95d918490d9)\]
 
 \[[https://indepth.dev/ngrx-how-and-where-to-handle-loading-and-error-states-of-ajax-calls/](https://indepth.dev/ngrx-how-and-where-to-handle-loading-and-error-states-of-ajax-calls/)\]
+
+\[[https://medium.com/dev-channel/a-netflix-web-performance-case-study-c0bcde26a9d9](https://medium.com/dev-channel/a-netflix-web-performance-case-study-c0bcde26a9d9
+
+)\]
 
