@@ -379,7 +379,7 @@ We can even use text description of these diagrams to write unit test
 2. When you want to augment one stream with information from a second stream on emitted values, `withLatestFrom` is a perfect choice.
 3. `combineLatest` is great when an element depends on the combination of multiple streams to make some calculation or determination.
 
-![combineLatest marble diagram](../.gitbook/assets/receive_the_latest_values_from_multiple_observables_on_emissions_using_combinelatest___ultimate_cour.jpg)
+![combineLatest marble diagram](../.gitbook/assets/receive_the_latest_values_from_multiple_observables_on_emissions_using_combinelatest___ultimate_courses-tm.jpg)
 
 ### Lesson 6. Receive the latest value from multiple observable on completion with forkJoin
 
@@ -389,7 +389,7 @@ We can even use text description of these diagrams to write unit test
 
 1. `forkJoin` can either emit as an array or an object, we prefer object because it much easier to extract properties
 
-![forkJoin marble diagram](../.gitbook/assets/receive_the_latest_values_from_multiple_observables_on_emissions_using_combinelatest___ultimate_cour%20%281%29.jpg)
+![forkJoin marble diagram](../.gitbook/assets/receive_the_latest_values_from_multiple_observables_on_emissions_using_combinelatest___ultimate_courses-tm%20%281%29.jpg)
 
 ### Lesson 7. Create a Mortgage Calculator
 

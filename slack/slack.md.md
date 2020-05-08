@@ -241,3 +241,31 @@ ng generate store ProductState --statePath=products/store --module=products/prod
 
 )\]
 
+\[[https://web.dev/learn/](https://web.dev/learn/)\]
+
+`02/05/2020`:
+
+\[[https://www.tiepphan.com/rxjs-reactive-programming/\#rxjs-observer](https://www.tiepphan.com/rxjs-reactive-programming/#rxjs-observer)\]
+
+`07/05/2020`:
+
+```text
+https://stackblitz.com/edit/angular-bwdrz7?file=app/app.component.css
+```
+
+Customize vertical tabs in angular material: link before and in `user-list` component in `sales-portal` project 
+
+`08/05/2020`:
+
+\[[https://stackoverflow.com/questions/45940965/angular-material-customize-tab](https://stackoverflow.com/questions/45940965/angular-material-customize-tab)\]
+
+\[[https://medium.com/angular-in-depth/ngrx-action-creators-redesigned-d396960e46da](https://medium.com/angular-in-depth/ngrx-action-creators-redesigned-d396960e46da)\]
+
+\[[https://timdeschryver.dev/blog/ngrx-creator-functions-101](https://timdeschryver.dev/blog/ngrx-creator-functions-101)\]
+
+\[[https://indepth.dev/building-your-own-observable-part-3-the-observer-pattern-and-creational-methods/](https://indepth.dev/building-your-own-observable-part-3-the-observer-pattern-and-creational-methods/)\]
+
+\[[https://medium.com/@benlesh/learning-observable-by-building-observable-d5da57405d87](https://medium.com/@benlesh/learning-observable-by-building-observable-d5da57405d87)\]
+
+\[[https://www.stackchief.com/tutorials/JavaScript%20Observables%20in%205%20Minutes](https://www.stackchief.com/tutorials/JavaScript%20Observables%20in%205%20Minutes)\]
+
