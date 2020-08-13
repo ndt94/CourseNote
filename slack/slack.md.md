@@ -269,3 +269,159 @@ Customize vertical tabs in angular material: link before and in `user-list` comp
 
 \[[https://www.stackchief.com/tutorials/JavaScript%20Observables%20in%205%20Minutes](https://www.stackchief.com/tutorials/JavaScript%20Observables%20in%205%20Minutes)\]
 
+`09/05/2020`:
+
+```text
+https://indepth.dev/author/nate/
+```
+
+Good article about understanding about source code of RxJS
+
+`13/05/2020`:
+
+```text
+https://stackoverflow.com/questions/54891110/router-getcurrentnavigation-always-returns-null
+```
+
+transfer state through url navigate 
+
+`18/05/2020:`
+
+```text
+https://github.com/MikeRyanDev/habits-graphql-angular
+```
+
+```text
+https://www.samjulien.com/write-a-basic-graphql-client-for-ngrx
+```
+
+GraphQL w NgRx
+
+```text
+https://medium.com/razroo/angular-using-ngrx-store-as-your-apollo-cache-with-graphql-d6c539932219
+```
+
+NgRx Store as ApolloCache
+
+```text
+https://blog.learngoprogramming.com/
+```
+
+ `19/05/2020:`
+
+`Debugger Tools Docs`  
+[https://developer.mozilla.org/en-US/docs/Tools/Debugger](https://developer.mozilla.org/en-US/docs/Tools/Debugger)  
+`SCSS angular`  
+[https://scotch.io/tutorials/angular-shortcut-to-importing-styles-files-in-components](https://scotch.io/tutorials/angular-shortcut-to-importing-styles-files-in-components)  
+  
+`30/05/2020`:
+
+`Full Calendar related`   
+[https://stackoverflow.com/questions/57194259/react-fullcalendar-v4-tooltip](https://stackoverflow.com/questions/57194259/react-fullcalendar-v4-tooltip)
+
+```text
+https://github.com/fullcalendar/fullcalendar-react/issues/12
+```
+
+how to render a functional component on eventRender method of FullCalendar API  
+  
+`24/06/2020`:  
+`Handle error with async pipe`
+
+```text
+https://sebastian-holstein.de/post/error-handling-angular-async-pipe/
+https://stackoverflow.com/questions/56089077/handling-errors-with-rxjs-and-angular-async-pipe
+https://stackoverflow.com/questions/50049527/handle-observable-errors-with-async-pipe-in-a-reactive-way
+```
+
+ `02/07/2020`:  
+`Resource for RxJS Best Practices`
+
+```text
+https://blog.thoughtram.io/angular/2017/02/27/three-things-you-didnt-know-about-the-async-pipe.html
+https://indepth.dev/everything-you-need-to-know-about-change-detection-in-angular/
+https://medium.com/better-programming/rxjs-best-practices-7f559d811514
+https://blog.strongbrew.io/rxjs-best-practices-in-angular/
+https://blog.strongbrew.io/rxjs-best-practices-in-angular/?utm_source=dormosheio&utm_campaign=dormosheio
+https://blog.angular-university.io/functional-reactive-programming-for-angular-2-developers-rxjs-and-observables/
+https://github.com/madhurakhal/rxjs-best-practices
+https://www.intertech.com/angular-best-practice-unsubscribing-rxjs-observables/
+https://medium.com/angular-in-depth/rxjs-avoiding-takeuntil-leaks-fb5182d047ef
+https://blog.bitsrc.io/rxjs-patterns-efficiency-and-performance-10bbf272c3fc
+https://netbasal.com/creating-custom-operators-in-rxjs-32f052d69457
+https://medium.com/javascript-everyday/rxjs-custom-operators-f8b9aeab9631
+https://medium.com/@benlesh/rxjs-dont-unsubscribe-6753ed4fda87
+https://www.youtube.com/channel/UCfiGD529EyGGA6fbQsl99BQ/videos
+https://dev.to/stephenradams/reactive-programming-a-shift-in-mindset-4cm3#:~:text=Having%20a%20more%20reactive%20mindset,more%20responsive%20to%20the%20user.
+https://www.youtube.com/watch?v=Z76QlSpYcck&feature=youtu.be
+https://levelup.gitconnected.com/lets-be-more-reactive-7b1a1554e6da
+https://www.freecodecamp.org/news/an-introduction-to-observables-in-reactive-programming-1cfd3e23bb94/
+https://stackblitz.com/edit/angular-autocomplete-imperative-vs-reactive?file=app%2Fapi.service.ts
+https://levelup.gitconnected.com/angular-and-rxjs-patterns-use-reactive-programming-to-compose-and-manage-data-in-angular-apps-2e0c4ce7a39c
+https://nitayneeman.com/posts/all-talks-from-ng-conf-2019/
+https://itnext.io/angular-rxjs-detecting-memory-leaks-bdd312a070a0
+https://egghead.io/lessons/angular-avoid-memory-leaks-when-subscribing-to-rxjs-observables-in-angular-components
+https://stackoverflow.com/questions/54658614/how-to-detect-rxjs-related-memory-leaks-in-angular-apps
+https://medium.com/javascript-everyday/yet-another-way-to-handle-rxjs-subscriptions-1f15554ce3b5
+https://medium.com/angular-in-depth/the-best-way-to-unsubscribe-rxjs-observable-in-the-angular-applications-d8f9aa42f6a0
+```
+
+ `22/07/2020`:
+
+`Resource for React-Router Scable Architect`
+
+```text
+https://github.com/react-boilerplate/react-boilerplate/blob/master/docs/js/routing.md
+https://github.com/react-boilerplate/react-boilerplate/blob/master/docs/general/introduction.md
+https://github.com/react-boilerplate/react-boilerplate/issues/27
+https://dev.to/evilspark/how-i-edited-a-complex-react-boilerplate-that-now-works-perfectly-for-me-42km
+https://viblo.asia/p/cung-tim-hieu-ve-react-boilerplate-YWOZrwbPlQ0
+https://medium.com/better-programming/react-router-architecture-thats-simple-scalable-and-protected-da896827f946
+https://web.dev/react/
+https://blog.logrocket.com/how-react-hooks-can-replace-react-router/
+https://luuxuantruong.info/gioi-thieu-ve-umijs-p3-permission-routing/
+https://medium.com/javascript-in-plain-english/enterprise-react-in-2020-78155bc99259
+https://reactrouter.com/web/guides/quick-start
+```
+
+ `27/07/2020`:
+
+`Hook related resource`
+
+```text
+https://www.freecodecamp.org/news/testing-react-hooks/
+https://usehooks.com/
+```
+
+ `30/07/2020`:  
+`Algorithm resource`
+
+```text
+https://scrimba.com/p/pk57XHz/cpD8NGc9
+```
+
+ `31/07/2020`:  
+`React Profiler and Performance resource`
+
+```text
+https://www.youtube.com/watch?v=00RoZflFE34
+https://www.youtube.com/watch?v=Q7NEfD4FNYE
+https://calibreapp.com/blog/react-performance-profiling-optimization
+https://reactjs.org/docs/optimizing-performance.html
+```
+
+ `06/08/2020`:  
+`Access child state & method from parent comp in React`
+
+```text
+https://stackoverflow.com/questions/37949981/call-child-method-from-parent
+```
+
+```text
+https://linguinecode.com/post/get-child-component-state-from-parent-component
+```
+
+ `13/08/2020`:  
+`React Resource`  
+[https://reactresources.com/](https://reactresources.com/)
+
