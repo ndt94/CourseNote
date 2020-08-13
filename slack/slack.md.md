@@ -423,5 +423,10 @@ https://linguinecode.com/post/get-child-component-state-from-parent-component
 
  `13/08/2020`:  
 `React Resource`  
-[https://reactresources.com/](https://reactresources.com/)
+[https://reactresources.com/](https://reactresources.com/)  
+`React Native optiomization`  
+[https://callstack.com/blog/download-the-ultimate-guide-to-react-native-optimization-ebook/](https://callstack.com/blog/download-the-ultimate-guide-to-react-native-optimization-ebook/)
+
+`Redux 101`  
+[https://www.valentinog.com/blog/redux/](https://www.valentinog.com/blog/redux/)
 
