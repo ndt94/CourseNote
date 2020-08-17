@@ -382,6 +382,7 @@ https://blog.logrocket.com/how-react-hooks-can-replace-react-router/
 https://luuxuantruong.info/gioi-thieu-ve-umijs-p3-permission-routing/
 https://medium.com/javascript-in-plain-english/enterprise-react-in-2020-78155bc99259
 https://reactrouter.com/web/guides/quick-start
+https://www.freecodecamp.org/news/hitchhikers-guide-to-react-router-v4-a957c6a5aa18/
 ```
 
  `27/07/2020`:
