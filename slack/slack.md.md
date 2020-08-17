@@ -390,6 +390,7 @@ https://www.sitepoint.com/react-router-complete-guide/
 https://dev.to/legobox/my-react-routing-structure-d8i
 https://medium.com/@hassan.djirdeh/domain-driven-react-redux-a474ecf7d126
 https://marmelab.com/blog/2015/12/17/react-directory-structure.html
+https://medium.com/swlh/react-router-with-a-single-config-file-61777f306b4f
 ```
 
  `27/07/2020`:
