@@ -383,6 +383,13 @@ https://luuxuantruong.info/gioi-thieu-ve-umijs-p3-permission-routing/
 https://medium.com/javascript-in-plain-english/enterprise-react-in-2020-78155bc99259
 https://reactrouter.com/web/guides/quick-start
 https://www.freecodecamp.org/news/hitchhikers-guide-to-react-router-v4-a957c6a5aa18/
+https://www.atlassian.com/engineering/react-resource-router-deep-dive
+https://misscoded.com/react-router-patterns/
+https://blog.bitsrc.io/must-know-concepts-of-react-router-fb9c8cc3c12
+https://www.sitepoint.com/react-router-complete-guide/
+https://dev.to/legobox/my-react-routing-structure-d8i
+https://medium.com/@hassan.djirdeh/domain-driven-react-redux-a474ecf7d126
+https://marmelab.com/blog/2015/12/17/react-directory-structure.html
 ```
 
  `27/07/2020`:
