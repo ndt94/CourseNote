@@ -391,6 +391,10 @@ https://dev.to/legobox/my-react-routing-structure-d8i
 https://medium.com/@hassan.djirdeh/domain-driven-react-redux-a474ecf7d126
 https://marmelab.com/blog/2015/12/17/react-directory-structure.html
 https://medium.com/swlh/react-router-with-a-single-config-file-61777f306b4f
+https://auth0.com/docs/authorization/authentication-and-authorization
+https://jasonwatmore.com/post/2019/02/01/react-role-based-authorization-tutorial-with-example
+https://levelup.gitconnected.com/role-based-authentication-with-react-router-and-typescript-b707af568ccf
+https://medium.com/better-programming/building-basic-react-authentication-e20a574d5e71
 ```
 
  `27/07/2020`:
@@ -438,4 +442,14 @@ https://linguinecode.com/post/get-child-component-state-from-parent-component
 
 `Redux 101`  
 [https://www.valentinog.com/blog/redux/](https://www.valentinog.com/blog/redux/)
+
+`26/08/2020`:
+
+angular resource recommend in main page angular
+
+```text
+https://angular.io/resources
+```
+
+
 
