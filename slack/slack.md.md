@@ -451,5 +451,78 @@ angular resource recommend in main page angular
 https://angular.io/resources
 ```
 
+`01/09/2020`
 
+`Monorepo resource`
+
+```text
+https://www.netlify.com/blog/2020/04/21/deploying-nx-monorepos-to-netlify/
+https://nx.dev/react
+https://blog.nrwl.io/painlessly-build-and-deploy-next-js-apps-with-nx-225e2721da78
+https://github.com/korfuri/awesome-monorepo
+https://danluu.com/monorepo/
+https://blog.thundra.io/mono-or-multi-repository-a-dilemma-in-the-serverless-world
+https://news.ycombinator.com/item?id=19303082
+https://medium.com/@Jakeherringbone/you-too-can-love-the-monorepo-d95d1d6fcebe
+https://itnext.io/monorepo-pains-9064db3b9882
+https://medium.com/@hoangbkit/why-monorepo-in-2018-89221acd4bfb
+https://www.atlassian.com/git/tutorials/monorepos
+https://thedeployguy.com/2020-05-10-monorepo-introduction/
+https://medium.com/@maoberlehner/monorepos-in-the-wild-33c6eb246cb9
+https://eng.uber.com/ios-monorepo/
+https://medium.com/opendoor-labs/our-python-monorepo-d34028f2b6fa
+https://blog.nrwl.io/misconceptions-about-monorepos-monorepo-monolith-df1250d4b03c
+https://www.toptal.com/front-end/guide-to-monorepos
+https://blog.salsitasoft.com/pitfalls-of-building-a-monorepo-for-react-native-and-react-web-apps/
+https://medium.com/@luisvieira_gmr/building-large-scale-react-applications-in-a-monorepo-91cd4637c131
+```
+
+`03/09/2020`
+
+```text
+https://github.com/PatrickJS/angular-starter/issues/727
+```
+
+`Closure resource`
+
+```text
+https://ui.dev/ultimate-guide-to-execution-contexts-hoisting-scopes-and-closures-in-javascript/
+```
+
+`04/09/2020`
+
+`NextJS authenication & authorization resource`
+
+```text
+https://jolvera.dev/posts/user-authentication-with-nextjs
+https://www.youtube.com/watch?v=j4Tob0KDbuQ&list=PLYSZyzpwBEWS3vaMHM8cCJv6qv6DNzzA9
+https://next-auth.js.org/
+https://leerob.io/blog/nextjs-authentication
+https://www.youtube.com/watch?v=NSR_Y_rm_zU
+https://gitlab.id.vin/khanhnv14/react-boilerplate/-/tree/master/nextjs
+https://medium.com/@anMagpie/next-js-jwt-auth-example-app-4ea4d7f49fa3
+https://www.jaygould.co.uk/2020-01-31-nextjs-auth-jwt-context-hooks/
+```
+
+`Micro-frontend && Scalable FE Structure`
+
+```text
+https://dev.to/vycke/how-to-create-a-scalable-and-maintainable-front-end-architecture-4f47
+https://medium.com/razroo/micro-front-end-architecture-an-introduction-initial-thoughts-5b34333c1218
+https://frontend-architecture.com/2020/02/13/micro-frontends/
+```
+
+`Mastering NextJS series`
+
+```text
+https://www.youtube.com/playlist?list=PL6bwFJ82M6FXjyBTVi6WSCWin8q_g_8RR
+```
+
+`06/09/2020`
+
+`Webpack related resource`
+
+```text
+https://blog.logrocket.com/guide-performance-optimization-webpack/
+```
 
