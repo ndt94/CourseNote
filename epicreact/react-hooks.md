@@ -3,6 +3,7 @@
 ## Use State
 
 1.  `setState` make the component `rerender`
+2.  `useState` allow you to pass a function instead of a value, and then it will only call that function to get the state value when the component is rendered the first time. This technique is call `lazy state initialization` and it's super useful when your 1st state is kinda `expensive computation`
 
 ## Use Effect
 
