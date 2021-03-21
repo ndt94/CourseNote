@@ -7,3 +7,6 @@
 
 ## Use Effect
 
+1. Run on every render and re-render
+2. Shallow comparison
+
