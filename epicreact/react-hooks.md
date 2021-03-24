@@ -17,4 +17,16 @@
 
 1. Updates are caused by a parent re-render, state change, or context change.
 2. Lazy initializers are functions passed to useState and useReducer.
+3. [https://codesandbox.io/s/react-hook-flow-jhj3f](https://codesandbox.io/s/react-hook-flow-jhj3f)
+
+## Lifting state
+
+1. `lift the state`which basically amounts to finding the lowest common parent shared between the two components and placing the state management there, and then passing the state and a mechanism for updating that state down into the components that need it.
+2. [https://reactjs.org/docs/lifting-state-up.html](https://reactjs.org/docs/lifting-state-up.html)
+3. [https://kentcdodds.com/blog/colocation](https://kentcdodds.com/blog/colocation)
+4. [https://kentcdodds.com/blog/state-colocation-will-make-your-react-app-faster](https://kentcdodds.com/blog/state-colocation-will-make-your-react-app-faster)
+
+## useRef and useEffect
+
+1. Everytime you interact with the dom using `useRef`, that becomes side-effect, so you have to use `useEffect`
 
