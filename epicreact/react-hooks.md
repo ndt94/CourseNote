@@ -7,7 +7,7 @@
 
 ## Use Effect
 
-1. Run on every render and re-render
+1. Run on every render and re-render \(after the browser has render actual DOM nodes\)
 2. Shallow comparison
 3. Custom hook to reuse logic between components
 
