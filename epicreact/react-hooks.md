@@ -13,5 +13,8 @@
 
 ## React Hooks Flow
 
-{% file src="../.gitbook/assets/hook-flow.pdf" caption="Hook Flow" %}
+![Hook Flow](../.gitbook/assets/hook-flow.png)
+
+1. Updates are caused by a parent re-render, state change, or context change.
+2. Lazy initializers are functions passed to useState and useReducer.
 
