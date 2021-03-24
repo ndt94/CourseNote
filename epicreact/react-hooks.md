@@ -29,4 +29,6 @@
 ## useRef and useEffect
 
 1. Everytime you interact with the dom using `useRef`, that becomes side-effect, so you have to use `useEffect`
+2. `useRef` returns a mutable ref object whose `.current` property is initialized to the passed argument \(`initialValue`\). The returned object will persist for the full lifetime of the component.
+3. Mutating the `useRef` object doesn't trigger `rerender`
 
