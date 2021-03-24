@@ -9,4 +9,9 @@
 
 1. Run on every render and re-render
 2. Shallow comparison
+3. Custom hook to reuse logic between components
+
+## React Hooks Flow
+
+{% file src="../.gitbook/assets/hook-flow.pdf" caption="Hook Flow" %}
 
