@@ -31,5 +31,6 @@
 
 ## EpicReact
 
+* [Advanced React Hooks](epicreact/advanced-react-hooks.md)
 * [React Hooks](epicreact/react-hooks.md)
 
