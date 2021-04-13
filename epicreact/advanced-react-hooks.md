@@ -16,6 +16,8 @@
 3. [https://epicreact.dev/memoization-and-react](https://epicreact.dev/memoization-and-react)
 4. [https://whatthefork.is/closure](https://whatthefork.is/closure)
 5. `useCallback` can extract logic into custom hook
+6. `useCallback` can return a `memoized` run function
+7. `useCallback(fn, deps)` is equivalent to `useMemo(() => fn, deps)`.
 
 
 
