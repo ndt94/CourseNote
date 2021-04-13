@@ -18,6 +18,7 @@
 5. `useCallback` can extract logic into custom hook
 6. `useCallback` can return a `memoized` run function
 7. `useCallback(fn, deps)` is equivalent to `useMemo(() => fn, deps)`.
+8. To avoid state update on an unmounted component , you might need `useRef`, `useCallback`, and `useEffect`. Iconic example is when you fetch data, and decide to unmount the component before the request is done, React may tell you this error `Can't perform a React state update on an unmounted component. This is a no-op, but it indicates a memory leak in your application. To fix, cancel all subscriptions and asynchronous tasks in a useEffect cleanup function.`
 
 
 
